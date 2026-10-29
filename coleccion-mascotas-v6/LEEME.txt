@@ -1,0 +1,7 @@
+Colección de mascotas — propuestas de revisión.
+Fotos originales preservadas en referencias/mascotas.
+PNG con fondo gris de presentación: NO son PNG transparentes ni archivos de corte.
+El perrito y los retratos detallados del loro funcionan mejor en 6–8 cm.
+ICPC UMSS con loro es una propuesta ilustrada, no un logo oficial.
+La gatita conserva las manchas tricolor; nombre confirmado: Gatitas Bondadosas.
+Cada prompt está conservado en prompts/.

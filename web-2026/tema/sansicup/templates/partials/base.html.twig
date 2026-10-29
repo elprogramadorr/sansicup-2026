@@ -1,0 +1,40 @@
+{% set descripcion = page.header.description|default('SanSi Cup 2026: concurso de programación competitiva de ICPC UMSS. Clasificatoria en línea el sábado 21 de noviembre y gran final presencial el sábado 19 de diciembre en la UMSS, Cochabamba.') %}
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.home %}{{ page.title }}{% else %}{{ page.title }} · SanSi Cup 2026{% endif %}</title>
+  <meta name="description" content="{{ descripcion }}">
+  <meta name="theme-color" content="#0D1A47">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ descripcion }}">
+  <meta property="og:image" content="{{ url('theme://images/compartir.jpg', true) }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}">
+  <link rel="preload" href="{{ url('theme://fonts/fraunces-italic.woff2') }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ url('theme://fonts/barlow-condensed-semibold.woff2') }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ url('theme://css/sansicup.css') }}">
+  {{ assets.css()|raw }}
+  {{ assets.js()|raw }}
+</head>
+<body class="{% block clase_body %}pagina{% endblock %}">
+{% block pagina %}
+  <header class="barra">
+    <div class="envoltura">
+      <a href="{{ home_url }}"><img src="{{ url('theme://images/sansicup-2026.svg') }}" alt="SanSi Cup 2026" width="1090" height="590"></a>
+    </div>
+  </header>
+  <main class="papel">
+    <article class="envoltura articulo prosa">
+      {% block content %}
+        <h1>{{ page.title }}</h1>
+        {{ page.content|raw }}
+      {% endblock %}
+    </article>
+  </main>
+{% endblock %}
+{% include 'partials/pie.html.twig' %}
+</body>
+</html>

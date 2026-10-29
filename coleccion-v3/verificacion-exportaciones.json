@@ -1,0 +1,164 @@
+[
+  {
+    "file": "01-sansicup-2026-4cm.png",
+    "size": [
+      472,
+      320
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "01-sansicup-2026-6cm.png",
+    "size": [
+      709,
+      481
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "01-sansicup-2026-8cm.png",
+    "size": [
+      945,
+      641
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "02-copa-4cm.png",
+    "size": [
+      437,
+      472
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "02-copa-6cm.png",
+    "size": [
+      656,
+      709
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "02-copa-8cm.png",
+    "size": [
+      875,
+      945
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "03-one-more-submit-4cm.png",
+    "size": [
+      415,
+      472
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "03-one-more-submit-6cm.png",
+    "size": [
+      623,
+      709
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "03-one-more-submit-8cm.png",
+    "size": [
+      831,
+      945
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "04-tle-4cm.png",
+    "size": [
+      472,
+      389
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "04-tle-6cm.png",
+    "size": [
+      709,
+      585
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "04-tle-8cm.png",
+    "size": [
+      945,
+      779
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "05-icpc-4cm.png",
+    "size": [
+      429,
+      472
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "05-icpc-6cm.png",
+    "size": [
+      644,
+      709
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "05-icpc-8cm.png",
+    "size": [
+      859,
+      945
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "06-umss-4cm.png",
+    "size": [
+      472,
+      249
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "06-umss-6cm.png",
+    "size": [
+      709,
+      374
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  },
+  {
+    "file": "06-umss-8cm.png",
+    "size": [
+      945,
+      499
+    ],
+    "dpi": 299.9994,
+    "alpha": true
+  }
+]

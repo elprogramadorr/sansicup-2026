@@ -1,0 +1,9 @@
+const fs=require('fs'),assert=require('assert'),path=require('path');
+const sharp=require('/Users/valdivia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const root=path.resolve(__dirname,'../..'),out=path.join(root,'entrega-stickers');
+(async()=>{const rows=JSON.parse(fs.readFileSync(path.join(out,'manifest.json'))),sel=JSON.parse(fs.readFileSync(path.join(root,'seleccion-galeria.json'))).entries.filter(e=>e.status==='selected');
+assert.deepEqual(new Set(rows.map(r=>r.source)),new Set(sel.map(r=>r.file)));
+let png=0;for(const r of rows){assert.equal((r.path.match(/M/g)||[]).length,1,r.id);assert.equal((r.path.match(/Z/g)||[]).length,1,r.id);assert(r.native_ppi_8cm>=300,r.id);
+for(const cm of [4,6,8]){const f=path.join(out,'png-300dpi',`${r.id}-${cm}cm.png`);const m=await sharp(f).metadata();assert(m.hasAlpha);assert.equal(Math.max(m.width,m.height),Math.round(cm/2.54*300));assert.equal(m.density,300);const {data}=await sharp(f).extractChannel(3).raw().toBuffer({resolveWithObject:true});assert(data.some(v=>v===0));assert(data.some(v=>v===255));png++;}}
+let csv='id,titulo,lado_mayor_recomendado_cm,ppi_nativos_a_8cm\n';for(const r of rows)csv+=`${r.id},"${r.title}",${r.recommended_cm},${r.native_ppi_8cm}\n`;fs.writeFileSync(path.join(out,'inventario.csv'),csv);
+const result={selected:rows.length,png_exports:png,closed_single_cut_contours:rows.length,min_native_ppi_at_8cm:Math.min(...rows.map(r=>r.native_ppi_8cm)),checks:['Selection matches manifest','Transparent PNG decoded','300 DPI metadata','Physical size within 0.04 mm rounding','One closed outer contour per SVG','Native resolution >=300 ppi at 8 cm'],pending:['Physical print proof','Printer-specific color profile and cut settings']};fs.writeFileSync(path.join(out,'verificacion.json'),JSON.stringify(result,null,2));console.log(result);})();

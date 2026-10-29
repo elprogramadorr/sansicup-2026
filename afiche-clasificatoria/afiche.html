@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>SanSi Cup 2026 · Clasificatoria</title>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('fuentes/Fraunces-VF.ttf') format('truetype'); font-weight: 100 900; font-style: normal; }
+@font-face { font-family: 'Fraunces'; src: url('fuentes/Fraunces-Italic-VF.ttf') format('truetype'); font-weight: 100 900; font-style: italic; }
+@font-face { font-family: 'Barlow C'; src: url('fuentes/BarlowCondensed-Medium.ttf'); font-weight: 500; }
+@font-face { font-family: 'Barlow C'; src: url('fuentes/BarlowCondensed-SemiBold.ttf'); font-weight: 600; }
+@font-face { font-family: 'Barlow C'; src: url('fuentes/BarlowCondensed-Bold.ttf'); font-weight: 700; }
+@font-face { font-family: 'Barlow C'; src: url('fuentes/BarlowCondensed-ExtraBold.ttf'); font-weight: 800; }
+@font-face { font-family: 'JB Mono'; src: url('fuentes/JetBrainsMono-VF.ttf'); font-weight: 100 800; }
+
+:root {
+  --night: #0D1A47;
+  --navy: #14286E;
+  --navy-2: #1B3485;
+  --cream: #F6EEDF;
+  --paper: #FFFBF3;
+  --gold: #D9B15C;
+  --gold-deep: #B68A34;
+  --red: #D7192D;
+  --red-deep: #B01426;
+  --yellow: #FFC72C;
+  --blue: #2F6FD0;
+  --green: #3FA34D;
+  --ink: #14286E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; background: var(--night); }
+body { overflow: hidden; -webkit-font-smoothing: antialiased; }
+
+.poster {
+  position: relative; width: 1080px; height: 1350px; overflow: hidden;
+  background:
+    radial-gradient(ellipse 70% 46% at 50% 30%, #1A2F7A 0%, rgba(26,47,122,0) 70%),
+    var(--night);
+  color: var(--cream);
+  font-family: 'Barlow C', sans-serif;
+}
+.dots {
+  position: absolute; inset: 0;
+  background-image: radial-gradient(rgba(246,238,223,.07) 1.4px, transparent 1.6px);
+  background-size: 27px 27px; background-position: 13px 13px;
+}
+svg.deco { position: absolute; inset: 0; width: 1080px; height: 1350px; }
+
+.label {
+  font-family: 'Barlow C'; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .24em; font-size: 20px;
+}
+
+/* ---------- hero ---------- */
+.eyebrow {
+  position: absolute; top: 46px; left: 0; right: 0; text-align: center;
+  color: var(--gold);
+}
+.eyebrow span { display: inline-block; padding: 0 18px; }
+.eyebrow i { display: inline-block; width: 46px; height: 1px; background: var(--gold); opacity: .55; vertical-align: middle; }
+
+.logo {
+  position: absolute; left: 50%; top: 80px; width: 470px; transform: translateX(-50%);
+  filter: drop-shadow(0 14px 22px rgba(4,10,35,.45));
+}
+.title {
+  position: absolute; top: 344px; left: 0; right: 0; text-align: center;
+  font-family: 'Fraunces'; font-style: italic; font-weight: 380;
+  font-variation-settings: 'opsz' 144, 'SOFT' 40, 'WONK' 0;
+  font-size: 104px; line-height: 1; letter-spacing: -.01em;
+  color: var(--cream);
+}
+.subtitle {
+  position: absolute; top: 468px; left: 0; right: 0; text-align: center;
+  color: rgba(246,238,223,.78); letter-spacing: .22em;
+}
+.subtitle b { color: var(--gold); font-weight: 600; padding: 0 .5em; }
+
+.lockup {
+  position: absolute; top: 514px; left: 110px; right: 110px;
+  display: grid; grid-template-columns: 1fr 1.08fr 1fr; grid-auto-flow: column;
+  grid-template-rows: auto auto auto; align-items: baseline; text-align: center;
+}
+.lockup .rule { position: absolute; top: 14px; bottom: 14px; width: 1px;
+  background: linear-gradient(transparent, rgba(217,177,92,.75), transparent); }
+.lockup .top { color: var(--gold); }
+.lockup .num {
+  font-family: 'Fraunces'; font-weight: 400; color: var(--cream);
+  font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 0;
+  font-feature-settings: 'lnum' 1;
+  line-height: .9; margin: 8px 0 10px;
+}
+.lockup .side.num { font-size: 84px; }
+.lockup .center.num { font-size: 122px; }
+.lockup .bot { color: rgba(246,238,223,.8); }
+
+.final { position: absolute; top: 706px; left: 0; right: 0; text-align: center; }
+.final .label { color: var(--gold); font-size: 19px; letter-spacing: .2em; }
+.final .label i { display: inline-block; width: 34px; height: 1px; background: var(--gold); opacity: .55; vertical-align: middle; margin: 0 14px; }
+.final p {
+  margin-top: 4px; font-family: 'Fraunces'; font-style: italic; font-weight: 400; font-size: 23px; color: var(--cream);
+  font-variation-settings: 'opsz' 36, 'SOFT' 50, 'WONK' 0;
+}
+
+/* ---------- panel ---------- */
+.panel { position: absolute; left: 0; right: 0; top: 770px; bottom: 0; color: var(--ink); }
+
+.reg { position: absolute; left: 70px; top: 70px; width: 580px; }
+.reg .label { color: var(--red); }
+.price {
+  font-family: 'Fraunces'; font-weight: 500; font-size: 86px; line-height: 1;
+  font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 0;
+  margin-top: 10px; display: flex; align-items: baseline; gap: 18px;
+}
+.price small {
+  font-family: 'Barlow C'; font-weight: 600; font-size: 26px; letter-spacing: .04em;
+  color: rgba(20,40,110,.75);
+}
+.deadline {
+  margin-top: 16px; font-size: 31px; font-weight: 500; line-height: 1.2; letter-spacing: .005em;
+}
+.deadline b { font-weight: 700; }
+.deadline .hl { color: var(--red); font-weight: 700; }
+.fine { margin-top: 12px; font-size: 21px; font-weight: 500; line-height: 1.3; color: rgba(20,40,110,.72); }
+
+.qr {
+  position: absolute; right: 70px; top: 0; width: 276px;
+  background: var(--paper); border-radius: 18px; padding: 26px 26px 16px;
+  box-shadow: 0 1px 0 rgba(20,40,110,.08), 0 18px 34px -16px rgba(20,40,110,.35);
+  text-align: center;
+}
+.qr::before { /* gold double rule, like a card frame */
+  content: ''; position: absolute; inset: 6px; border: 1px solid rgba(182,138,52,.45); border-radius: 13px; pointer-events: none;
+}
+.qr img { width: 202px; height: 202px; display: block; margin: 4px auto 0; image-rendering: pixelated; }
+.qr .cta { margin-top: 12px; color: var(--red); font-weight: 700; letter-spacing: .13em; font-size: 19px; white-space: nowrap; }
+.qr .url { margin-top: 2px; font-family: 'JB Mono'; font-weight: 500; font-size: 14.5px; color: rgba(20,40,110,.8); letter-spacing: -.01em; }
+
+/* gift tag */
+.gift { position: absolute; left: 50px; top: 316px; width: 980px; height: 150px; }
+.gift svg { position: absolute; inset: 0; overflow: visible; }
+.gift .txt { position: absolute; left: 92px; top: 17px; width: 560px; color: var(--cream); }
+.gift .label { color: var(--gold); font-size: 18px; }
+.gift h3 {
+  font-family: 'Fraunces'; font-style: italic; font-weight: 450; font-size: 31px; line-height: 1.08;
+  font-variation-settings: 'opsz' 72, 'SOFT' 50, 'WONK' 0; margin-top: 6px;
+}
+.gift p { font-size: 20.5px; font-weight: 500; line-height: 1.25; margin-top: 6px; color: rgba(246,238,223,.88); }
+.gift p b { color: #fff; font-weight: 700; }
+.stk { position: absolute; filter: drop-shadow(0 8px 10px rgba(10,16,40,.35)); }
+
+.foot {
+  position: absolute; left: 70px; right: 70px; top: 476px; height: 30px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 21px; font-weight: 600; color: var(--ink);
+}
+.foot .links { display: flex; gap: 28px; align-items: center; }
+.foot .links .label { color: var(--red); font-size: 17px; letter-spacing: .2em; margin-right: -4px; }
+.foot .links span { display: inline-flex; align-items: center; gap: 7px; }
+.foot .links svg { width: 20px; height: 20px; }
+.band {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 64px; background: var(--night);
+  border-top: 2px solid var(--gold);
+  display: flex; align-items: center; justify-content: space-between; padding: 0 64px;
+  color: var(--cream);
+}
+.band .cr { display: flex; align-items: center; gap: 12px; }
+.band .cr > .label { font-size: 13px; letter-spacing: .2em; color: var(--gold); line-height: 1.15; }
+.band .org { display: flex; align-items: center; gap: 10px; line-height: 1.02; }
+.band .org img { height: 38px; }
+.band .org b { display: block; font-size: 19px; font-weight: 700; letter-spacing: .12em; }
+.band .org small { display: block; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: rgba(246,238,223,.7); }
+.band .scesi { height: 40px; }
+.band .memi { height: 50px; }
+.band .juki { height: 52px; margin: -6px 0; }
+.band .sep { width: 1px; height: 30px; background: rgba(217,177,92,.45); }
+.story .band { height: 172px; background: none; border: 0; padding: 0 64px; }
+
+/* ---------- historia 9:16 (afiche.html?formato=historia) ---------- */
+html.story, html.story body, .story .poster { height: 1920px; }
+.story svg.deco { height: 1920px; }
+.story .eyebrow { top: 210px; }
+.story .logo { top: 256px; width: 580px; }
+.story .title { top: 592px; font-size: 122px; }
+.story .subtitle { top: 742px; }
+.story .lockup { top: 800px; left: 96px; right: 96px; }
+.story .final { top: 1000px; }
+.story .panel { top: 1090px; }
+.story .gift { top: 372px; }
+.story .foot { top: 548px; }
+.story .hook { display: block; }
+.hook { display: none; position: absolute; left: 0; right: 0; top: 592px; text-align: center;
+  font-family: 'Fraunces'; font-style: italic; font-weight: 420; font-size: 34px; color: var(--ink);
+  font-variation-settings: 'opsz' 72, 'SOFT' 50, 'WONK' 0; }
+</style>
+</head>
+<body>
+<div class="poster">
+  <div class="dots"></div>
+  <svg class="deco" id="sky" viewBox="0 0 1080 1350"></svg>
+
+  <div class="eyebrow label"><i></i><span>ICPC UMSS · Cuarta edición</span><i></i></div>
+  <img class="logo" src="assets/logo-arte.svg" alt="SanSi Cup 2026">
+  <div class="title">Clasificatoria</div>
+  <div class="subtitle label">En línea<b>·</b>Individual<b>·</b>Dirigido a estudiantes universitarios</div>
+
+  <div class="lockup">
+    <div class="top label">Horario</div><div class="side num">14:00</div><div class="bot label">a 16:00 · 2 horas</div>
+    <div class="top label">Sábado</div><div class="center num">21</div><div class="bot label">Noviembre</div>
+    <div class="top label">Clasifican</div><div class="side num">60</div><div class="bot label">a la gran final</div>
+    <i class="rule" style="left:33%"></i><i class="rule" style="left:67.4%"></i>
+  </div>
+  <div class="final">
+    <div class="label"><i></i>Gran final presencial · sábado 19 de diciembre<i></i></div>
+    <p>en la UMSS, Cochabamba, Bolivia, con más premios y sorpresas</p>
+  </div>
+
+  <svg class="deco" id="ground" viewBox="0 0 1080 1350"></svg>
+
+  <section class="panel">
+    <div class="reg">
+      <div class="label">Inscripciones abiertas</div>
+      <div class="price">Bs 20 <small>por participante</small></div>
+      <div class="deadline">Hasta el <span class="hl">jueves 19 de noviembre</span>, <b>23:59</b></div>
+      <div class="fine">Pago solo por QR. Las instrucciones para compartir pantalla llegan a tu correo al cerrar inscripciones.</div>
+    </div>
+
+    <div class="qr">
+      <img src="assets/qr-inscripcion.svg" alt="QR del formulario de inscripción">
+      <div class="cta label">Escanea e inscríbete</div>
+      <div class="url">forms.gle/CpSgMEdd7zDfU3T99</div>
+    </div>
+
+    <div class="gift">
+      <svg id="tag" viewBox="0 0 980 150"></svg>
+      <div class="txt">
+        <div class="label">Regalo de temporada</div>
+        <h3>¿Te inscribes y vas a la ICPC Regional?</h3>
+        <p>Te llevas un <b>pack de stickers premium exclusivos</b> y entras al sorteo de merch sorpresa, con recuerdos de la <b>ICPC World Finals</b>.</p>
+      </div>
+      <img class="stk" src="assets/sticker-31-juki-judge.png" style="width:120px; left:640px; top:6px; transform: rotate(-8deg);">
+      <img class="stk" src="assets/sticker-26-icpc-globos.png" style="width:130px; left:744px; top:-4px; transform: rotate(4deg); z-index:2">
+      <img class="stk" src="assets/sticker-34-segfault.png" style="width:126px; left:852px; top:10px; transform: rotate(10deg);">
+    </div>
+
+    <div class="foot">
+      <div class="links">
+        <span class="label">Anuncios</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21 4 3 11l6 2.5L19 7l-7.5 8L18 20z"/></svg>t.me/SanSiCup2026</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>sansicup.umss.edu.bo</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".6" fill="currentColor"/></svg>@icpc_umss</span>
+      </div>
+    </div>
+    <div class="hook">¿Ya empezaste a entrenar para la SanSi Cup? 👀</div>
+  </section>
+
+  <footer class="band">
+    <div class="cr"><span class="label">Organiza</span>
+      <div class="org"><img src="assets/umss-escudo.png" alt="UMSS"><div><b>ICPC UMSS</b><small>Informática – Sistemas</small></div></div></div>
+    <i class="sep"></i>
+    <div class="cr"><span class="label">Con el<br>apoyo de</span><img class="scesi" src="assets/scesi.svg" alt="SCESI UMSS"><img class="memi" src="assets/centro-memi.png" alt="Centro MEMI"></div>
+    <i class="sep"></i>
+    <div class="cr"><span class="label">Powered<br>by</span><img class="juki" src="assets/juki-judge-blanco.svg" alt="Juki Judge"></div>
+  </footer>
+</div>
+
+<script>
+const NS = 'http://www.w3.org/2000/svg';
+const STORY = new URLSearchParams(location.search).get('formato') === 'historia';
+const H = STORY ? 1920 : 1350;
+const SY = STORY ? 210 : 0;   // stars follow the taller hero
+const GY = STORY ? 320 : 0;   // hills + cream panel move down with the panel
+const OY = STORY ? 150 : 0;   // longer threads so the baubles clear the story header
+if (STORY) document.documentElement.classList.add('story');
+document.querySelectorAll('svg.deco').forEach(el => el.setAttribute('viewBox', `0 0 1080 ${H}`));
+const rng = (s => () => (s = (s * 16807) % 2147483647) / 2147483647)(20261121);
+
+// 4-point sparkle, the same star the sticker collection uses
+const spark = (x, y, r, k = .22) =>
+  `M${x},${y - r} C${x + k * r},${y - k * r} ${x + k * r},${y - k * r} ${x + r},${y} ` +
+  `C${x + k * r},${y + k * r} ${x + k * r},${y + k * r} ${x},${y + r} ` +
+  `C${x - k * r},${y + k * r} ${x - k * r},${y + k * r} ${x - r},${y} ` +
+  `C${x - k * r},${y - k * r} ${x - k * r},${y - k * r} ${x},${y - r} Z`;
+
+// ICPC balloon dressed as a Christmas bauble: gold cap and thread, problem letter
+let oid = 0;
+function bauble(x, len, r, fill, dark, letter, letterFill = '#FFF6E6') {
+  const id = 'b' + (++oid);
+  const capW = r * .5, capH = r * .26, capY = len + 7;
+  const cy = capY + capH + r - r * .1;
+  return `
+  <line x1="${x}" y1="-2" x2="${x}" y2="${len}" stroke="#D9B15C" stroke-width="1.6" opacity=".85"/>
+  <circle cx="${x}" cy="${len + 3}" r="4.5" fill="none" stroke="#D9B15C" stroke-width="2"/>
+  <clipPath id="${id}"><circle cx="${x}" cy="${cy}" r="${r}"/></clipPath>
+  <g clip-path="url(#${id})">
+    <circle cx="${x}" cy="${cy}" r="${r}" fill="${dark}"/>
+    <circle cx="${x - r * .16}" cy="${cy - r * .16}" r="${r * .97}" fill="${fill}"/>
+    <ellipse cx="${x}" cy="${cy}" rx="${r}" ry="${r * .2}" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="${r * .07}"/>
+  </g>
+  <ellipse cx="${x - r * .45}" cy="${cy - r * .42}" rx="${r * .13}" ry="${r * .24}" transform="rotate(38 ${x - r * .45} ${cy - r * .42})" fill="#fff" opacity=".55"/>
+  <circle cx="${x - r * .2}" cy="${cy - r * .66}" r="${r * .05}" fill="#fff" opacity=".6"/>
+  <rect x="${x - capW / 2}" y="${capY}" width="${capW}" height="${capH}" rx="2.5" fill="#D9B15C"/>
+  <rect x="${x - capW / 2}" y="${capY + capH * .45}" width="${capW}" height="${Math.max(1.5, capH * .14)}" fill="#B68A34"/>
+  <text x="${x + r * .02}" y="${cy + r * .34}" text-anchor="middle" font-family="Fraunces" font-style="italic" font-weight="560"
+        font-size="${r * .98}" fill="${letterFill}" style="font-variation-settings:'opsz' 72,'SOFT' 60">${letter}</text>`;
+}
+
+const sky = document.getElementById('sky');
+let s = '';
+// stars: hand-placed big ones + a few small ones away from the type
+[[260, 160, 9, '#D9B15C'], [905, 352, 8, '#F6EEDF'], [118, 470, 7, '#D9B15C'], [968, 560, 6, '#D9B15C'],
+ [34, 610, 5, '#F6EEDF'], [1012, 740, 6, '#F6EEDF'], [858, 130, 5, '#F6EEDF']]
+  .forEach(([x, y, r, c]) => { s += `<path d="${spark(x, y + SY, r)}" fill="${c}" opacity=".9"/>`; });
+for (let i = 0; i < 26; i++) {
+  const x = 30 + rng() * 1020, y = 30 + rng() * (740 + SY);
+  if (x > 150 && x < 935 && y > 40 && y < 780 + SY) continue;   // keep the text column clean
+  s += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(0.9 + rng() * 1.4).toFixed(2)}" fill="#F6EEDF" opacity="${(0.35 + rng() * .45).toFixed(2)}"/>`;
+}
+// baubles: problems A–E
+s += bauble(96, 120 + OY, 52, '#D7192D', '#A80F20', 'A');
+s += bauble(196, 44 + OY, 32, '#3FA34D', '#2C7A3B', 'B');
+s += bauble(1004, 70 + OY, 46, '#FFC72C', '#E89A1C', 'C', '#14286E');
+s += bauble(904, 182 + OY, 38, '#2F6FD0', '#1F4FA0', 'D');
+s += bauble(1046, 236 + OY, 24, '#D7192D', '#A80F20', 'E');
+sky.innerHTML = s;
+
+// ground: back hill with the Cristo de la Concordia (lit at night), city lights, cream front hill
+function cristo(x, y, h, fill) { // x = center, y = ground; drawn on a 200 x 220 box
+  const k = h / 220;
+  const T = (px, py) => `${(x + (px - 100) * k).toFixed(1)},${(y + (py - 220) * k).toFixed(1)}`;
+  const P = pts => 'M' + pts.map(p => T(...p)).join(' L') + ' Z';
+  return `<g fill="${fill}">
+    <path d="${P([[56, 220], [144, 220], [140, 206], [60, 206]])}"/>
+    <path d="${P([[68, 206], [132, 206], [129, 195], [71, 195]])}"/>
+    <path d="M${T(85, 196)} C${T(86, 160)} ${T(87, 122)} ${T(86, 92)} L${T(84, 64)} L${T(116, 64)} L${T(114, 92)} C${T(113, 122)} ${T(114, 160)} ${T(115, 196)} Z"/>
+    <path d="${P([[88, 60], [34, 55], [26, 55], [26, 61], [34, 63], [50, 65], [60, 74], [74, 86], [88, 92]])}"/>
+    <path d="${P([[112, 60], [166, 55], [174, 55], [174, 61], [166, 63], [150, 65], [140, 74], [126, 86], [112, 92]])}"/>
+    <path d="${P([[94, 66], [95, 52], [105, 52], [106, 66]])}"/>
+    <ellipse cx="${x}" cy="${(y + (42 - 220) * k).toFixed(1)}" rx="${(8.5 * k).toFixed(1)}" ry="${(11 * k).toFixed(1)}"/>
+  </g>`;
+}
+const ground = document.getElementById('ground');
+let g = `<g transform="translate(0 ${GY})">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F6EEDF" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#F6EEDF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path d="M520,812 C640,800 760,778 880,770 C960,765 1030,770 1080,778 L1080,900 L520,900 Z" fill="#12245F"/>
+  <path d="M0,752 C24,744 50,740 72,740 C98,740 128,752 170,774 C240,800 380,812 600,818 L600,900 L0,900 Z" fill="#192D77"/>
+  <circle cx="72" cy="690" r="66" fill="url(#glow)"/>
+  ${cristo(72, 742, 76, '#F3E9D6')}`;
+const EDGE = 'M0,836 C160,812 320,806 480,816 C650,828 840,822 1080,800';
+g += `<path id="edge" d="${EDGE} L1080,${H - GY + 4} L0,${H - GY + 4} Z" fill="#F6EEDF"/>
+      <path d="${EDGE}" fill="none" stroke="#D9B15C" stroke-width="2"/></g>`;
+ground.innerHTML = g;
+const groundG = ground.firstElementChild;
+// city lights: a thin band just above the cream edge
+const probe = document.createElementNS(NS, 'path'); probe.setAttribute('d', EDGE); groundG.appendChild(probe);
+const L = probe.getTotalLength(); let lights = '';
+for (let i = 0; i < 46; i++) {
+  const p = probe.getPointAtLength(rng() * L);
+  if (p.x > 700 && p.x < 1020) continue;                      // under the QR card
+  const y = p.y - 6 - rng() * 18;
+  lights += `<circle cx="${p.x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(0.9 + rng() * 1.1).toFixed(2)}" fill="${rng() > .35 ? '#E8C676' : '#F6EEDF'}" opacity="${(0.3 + rng() * .45).toFixed(2)}"/>`;
+}
+probe.remove(); groundG.insertAdjacentHTML('beforeend', lights);
+
+// story only: a navy closing band under the reply bar (decorative, no info lives here)
+if (STORY) {
+  const BAND = 'M0,1772 C190,1752 380,1750 560,1762 C740,1774 900,1770 1080,1748';
+  let b = `<path d="${BAND} L1080,1920 L0,1920 Z" fill="#0D1A47"/>
+    <path d="${BAND}" fill="none" stroke="#D9B15C" stroke-width="2"/>
+`;
+  [[60, 1900, 5], [1024, 1898, 5]].forEach(([x, y, r]) => { b += `<path d="${spark(x, y, r)}" fill="#D9B15C"/>`; });
+  ground.insertAdjacentHTML('beforeend', b);
+}
+
+// gift tag: notched left end, eyelet with a gold cord
+document.getElementById('tag').innerHTML = `
+  <path d="M60,0 H960 a20,20 0 0 1 20,20 V130 a20,20 0 0 1 -20,20 H60 L0,104 V46 Z" fill="#B01426"/>
+  <path d="M64,8 H956 a14,14 0 0 1 14,14 V128 a14,14 0 0 1 -14,14 H64 L9,101 V49 Z" fill="none" stroke="#D9B15C" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="5 5"/>
+  <circle cx="40" cy="75" r="11" fill="#F6EEDF"/>
+  <circle cx="40" cy="75" r="11" fill="none" stroke="#D9B15C" stroke-width="3"/>
+  <path d="M33,70 C10,52 -14,58 -22,36 C-28,18 -10,4 -2,16" fill="none" stroke="#D9B15C" stroke-width="2.6" stroke-linecap="round"/>`;
+</script>
+</body>
+</html>

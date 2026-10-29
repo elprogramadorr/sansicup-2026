@@ -1,0 +1,8 @@
+Pilotos vectoriales - 25 octubre 2026
+Alcance autorizado: solo lettering y tres mascotas. Esperar aprobación del usuario antes del resto.
+Método: trazado del lettering aprobado; dibujo de mascotas con formas Bézier editables; sin imagen generada en resultado final.
+Paleta: #14286E #D7192D #FFC72C #FFFFFF #F2E3C8 #39764D #2B91B3 #CF733A #222222 #EF6858 #80283D #003770 #E30613.
+La colección anterior se archiva; no equivale a la nueva entrega vectorial.
+Sin repositorio Git: se mantienen originales, fuentes de construcción y registro local.
+
+Cuatro pilotos presentados en index.html y prueba-pilotos-4cm.pdf. No se extiende a las otras 16 piezas hasta recibir aprobación explícita. Validación guardada en revision/validacion.txt.

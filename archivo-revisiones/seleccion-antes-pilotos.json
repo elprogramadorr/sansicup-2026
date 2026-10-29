@@ -1,0 +1,393 @@
+{
+  "groups": {
+    "coleccion-sansicup-v7": "SanSi Cup · lettering y mascotas",
+    "coleccion-icpc-animales": "ICPC UMSS · las mascotas de ustedes",
+    "coleccion-mascotas-v6": "Mascotas y frases del grupo",
+    "coleccion-tom": "Tom · las frases",
+    "coleccion-nico": "Nico",
+    "coleccion-amigos": "Equipos y poleras ilustradas",
+    "poleras-realistas": "Poleras realistas",
+    "coleccion-local-v5": "Identidad UMSS / ICPC UMSS",
+    "coleccion-merch-v4": "Otras propuestas de frases"
+  },
+  "entries": [
+    {
+      "file": "coleccion-icpc-animales/stickers/01-galano.png",
+      "title": "ICPC UMSS · Galano",
+      "group": "coleccion-icpc-animales",
+      "status": "selected",
+      "note": "Serie de animales · 4–6 cm"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/02-perrito.png",
+      "title": "ICPC UMSS · Perrito",
+      "group": "coleccion-icpc-animales",
+      "status": "selected",
+      "note": "Serie de animales · 4–6 cm"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/03-gatita.png",
+      "title": "ICPC UMSS · Gatita",
+      "group": "coleccion-icpc-animales",
+      "status": "selected",
+      "note": "Serie de animales · 4–6 cm"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/04-capibara.png",
+      "title": "ICPC UMSS · Capibara",
+      "group": "coleccion-icpc-animales",
+      "status": "retired",
+      "note": "Serie de animales · 4–6 cm"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/05-patito.png",
+      "title": "ICPC UMSS · Patito",
+      "group": "coleccion-icpc-animales",
+      "status": "retired",
+      "note": "Serie de animales · 4–6 cm"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/06-llama.png",
+      "title": "ICPC UMSS · Llama",
+      "group": "coleccion-icpc-animales",
+      "status": "retired",
+      "note": "Serie de animales · 4–6 cm"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/01-umss-codigo.png",
+      "title": "UMSS · escudo y código",
+      "group": "coleccion-local-v5",
+      "status": "selected",
+      "note": "Interpretación para merch · 6–8 cm"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/02-icpc-umss-cubo.png",
+      "title": "ICPC UMSS · cubo",
+      "group": "coleccion-local-v5",
+      "status": "selected",
+      "note": "Interpretación para merch · 6–8 cm"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/03-cocha-codigo.png",
+      "title": "Cocha · código y Concordia",
+      "group": "coleccion-local-v5",
+      "status": "retired",
+      "note": "Interpretación para merch · 6–8 cm"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/01-perrito-malvado.png",
+      "title": "Perrito Malvado",
+      "group": "coleccion-mascotas-v6",
+      "status": "selected",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/02-loro-mucho-maestro.png",
+      "title": "Mucho Maestro · Galano",
+      "group": "coleccion-mascotas-v6",
+      "status": "selected",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/03-loro-que-waso.png",
+      "title": "Qué Waso · Galano",
+      "group": "coleccion-mascotas-v6",
+      "status": "selected",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/04-gatitas-bondadosas-sin-corazon.png",
+      "title": "Gatitas Bondadosas",
+      "group": "coleccion-mascotas-v6",
+      "status": "selected",
+      "note": "Sin corazón · nombre confirmado"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/05-loro-icpc-umss.png",
+      "title": "ICPC UMSS · Galano compacto",
+      "group": "coleccion-mascotas-v6",
+      "status": "duplicate",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/06-wasearse-repeat.png",
+      "title": "Eat, sleep, wasearse, repeat",
+      "group": "coleccion-mascotas-v6",
+      "status": "selected",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-tom/stickers/01-bandida.png",
+      "title": "Bandida",
+      "group": "coleccion-tom",
+      "status": "selected",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-tom/stickers/02-bandido.png",
+      "title": "Bandido",
+      "group": "coleccion-tom",
+      "status": "selected",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-tom/stickers/03-mucho-maestro.png",
+      "title": "Mucho Maestro · Tom",
+      "group": "coleccion-tom",
+      "status": "retired",
+      "note": "Propuesta para revisión"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/01-mucho-maestro.png",
+      "title": "Mucho Maestro",
+      "group": "coleccion-merch-v4",
+      "status": "selected",
+      "note": "Perrito mago · 6–8 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/02-maestro-pregunta.png",
+      "title": "Maestro?",
+      "group": "coleccion-merch-v4",
+      "status": "selected",
+      "note": "Detective de bugs · 6 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/03-f-maestro.png",
+      "title": "F Maestro",
+      "group": "coleccion-merch-v4",
+      "status": "selected",
+      "note": "Un abrazo al submit caído · 4–6 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/04-que-waso.png",
+      "title": "Qué Waso",
+      "group": "coleccion-merch-v4",
+      "status": "selected",
+      "note": "Enter a toda potencia · 6 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/05-accepted.png",
+      "title": "Accepted!",
+      "group": "coleccion-merch-v4",
+      "status": "retired",
+      "note": "Patito de debugging · 4–6 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/06-one-more-submit.png",
+      "title": "One More Submit",
+      "group": "coleccion-merch-v4",
+      "status": "retired",
+      "note": "Una última submission · 6 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/07-icpc-umss.png",
+      "title": "ICPC UMSS",
+      "group": "coleccion-merch-v4",
+      "status": "retired",
+      "note": "Tres compañeros, una laptop · 6–8 cm"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/08-umss.png",
+      "title": "UMSS",
+      "group": "coleccion-merch-v4",
+      "status": "retired",
+      "note": "Letras, código y montaña · 4–6 cm"
+    },
+    {
+      "file": "coleccion-nico/01-maestro-fotografico.png",
+      "title": "Maestro fotografico",
+      "group": "coleccion-nico",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "coleccion-nico/02-que-waso-ilustrado.png",
+      "title": "Que waso ilustrado",
+      "group": "coleccion-nico",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "poleras-realistas/01-dhaka-realista.png",
+      "title": "Dhaka realista",
+      "group": "poleras-realistas",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "poleras-realistas/02-luxor-realista.png",
+      "title": "Luxor realista",
+      "group": "poleras-realistas",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "poleras-realistas/03-baku-realista.png",
+      "title": "Baku realista",
+      "group": "poleras-realistas",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/alternativas/perritos-ilustrado.png",
+      "title": "Perritos Malvados · ilustrado",
+      "group": "coleccion-amigos",
+      "status": "selected",
+      "note": "Propuesta con fondo gris. Ver versión simplificada"
+    },
+    {
+      "file": "coleccion-amigos/stickers/02-f-maestro.png",
+      "title": "F maestro",
+      "group": "coleccion-amigos",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/03-maestro-pregunta.png",
+      "title": "Maestro pregunta",
+      "group": "coleccion-amigos",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/04-que-waso.png",
+      "title": "Que waso",
+      "group": "coleccion-amigos",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/05-que-perdio.png",
+      "title": "Que perdio",
+      "group": "coleccion-amigos",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/06-team-getanothername.png",
+      "title": "Team getanothername",
+      "group": "coleccion-amigos",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/07-polera-dhaka.png",
+      "title": "Polera dhaka",
+      "group": "coleccion-amigos",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/08-polera-luxor.png",
+      "title": "Polera luxor",
+      "group": "coleccion-amigos",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "coleccion-amigos/stickers/09-polera-baku.png",
+      "title": "Polera baku",
+      "group": "coleccion-amigos",
+      "status": "selected",
+      "note": ""
+    },
+    {
+      "file": "coleccion-v3/originales/01-sansicup-2026.png",
+      "title": "Sansicup 2026",
+      "group": "coleccion-v3",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-v3/originales/02-copa.png",
+      "title": "Copa",
+      "group": "coleccion-v3",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-v3/originales/03-one-more-submit.png",
+      "title": "One more submit",
+      "group": "coleccion-v3",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-v3/originales/04-tle.png",
+      "title": "Tle",
+      "group": "coleccion-v3",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-v3/originales/05-icpc.png",
+      "title": "Icpc",
+      "group": "coleccion-v3",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-v3/originales/06-umss.png",
+      "title": "Umss",
+      "group": "coleccion-v3",
+      "status": "retired",
+      "note": ""
+    },
+    {
+      "file": "coleccion-sansicup-v7/stickers/01-sansicup-lettering.png",
+      "title": "SanSi Cup · Firma",
+      "group": "coleccion-sansicup-v7",
+      "status": "selected",
+      "note": "Lettering inspirado en el logo original · 4–6 cm"
+    },
+    {
+      "file": "coleccion-sansicup-v7/stickers/02-sansicup-tipo-copa.png",
+      "title": "SanSi Cup · La copa es el nombre",
+      "group": "coleccion-sansicup-v7",
+      "status": "retired",
+      "note": "La palabra Cup construye el trofeo · 6 cm"
+    },
+    {
+      "file": "coleccion-sansicup-v7/stickers/03-sansicup-galano.png",
+      "title": "SanSi Cup · Galano se lleva la copa",
+      "group": "coleccion-sansicup-v7",
+      "status": "selected",
+      "note": "Su mascota protagoniza el evento · 6–8 cm"
+    },
+    {
+      "file": "coleccion-sansicup-v8/stickers/01-sansicup-26.png",
+      "title": "SanSi Cup · 26 en movimiento",
+      "note": "Numerales y ritmo deportivo · 6 cm",
+      "group": "coleccion-sansicup-v8",
+      "status": "retired"
+    },
+    {
+      "file": "coleccion-sansicup-v8/stickers/02-sansicup-emblema.png",
+      "title": "SanSi Cup · Emblema del torneo",
+      "note": "Tres cintas construyen una copa · 6 cm",
+      "group": "coleccion-sansicup-v8",
+      "status": "retired"
+    },
+    {
+      "file": "coleccion-sansicup-v8/stickers/03-sansicup-navidad.png",
+      "title": "SanSi Cup · Diciembre",
+      "note": "Esfera navideña con copa y árbol · 6–8 cm",
+      "group": "coleccion-sansicup-v8",
+      "status": "retired"
+    },
+    {
+      "file": "coleccion-sansicup-cierre/stickers/03-perrito-alpha-borrador.png",
+      "title": "SanSi Cup · Perrito Malvado",
+      "group": "coleccion-sansicup-v7",
+      "status": "selected",
+      "note": "Mascota con la firma SanSi Cup · 6–8 cm"
+    },
+    {
+      "file": "coleccion-sansicup-cierre/stickers/04-gatita-alpha-borrador.png",
+      "title": "SanSi Cup · Gatita",
+      "group": "coleccion-sansicup-v7",
+      "status": "selected",
+      "note": "Mascota con la firma SanSi Cup · 6–8 cm"
+    }
+  ]
+}

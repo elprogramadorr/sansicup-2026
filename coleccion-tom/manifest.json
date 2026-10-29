@@ -1,0 +1,35 @@
+[
+  {
+    "id": "01-bandida",
+    "title": "Bandida",
+    "file": "stickers/01-bandida.png",
+    "references": [
+      "referencias/tom/tom-captura-original.png"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "02-bandido",
+    "title": "Bandido",
+    "file": "stickers/02-bandido.png",
+    "references": [
+      "referencias/tom/tom-captura-original.png"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "03-mucho-maestro",
+    "title": "Mucho Maestro · Tom",
+    "file": "stickers/03-mucho-maestro.png",
+    "references": [
+      "referencias/tom/tom-captura-original.png"
+    ],
+    "status": "Retirado por solicitud del usuario",
+    "background": "gris, no transparente",
+    "print_ready": false
+  }
+]

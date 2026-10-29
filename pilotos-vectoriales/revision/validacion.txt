@@ -1,0 +1,8 @@
+01-sansicup-lettering: SVG nativo, 4 colores, 4 trazados, PNG (945, 535), 600 ppp, PDF vectorial.
+02-sansicup-galano: SVG nativo, 6 colores, 14 trazados, PNG (927, 945), 600 ppp, PDF vectorial.
+03-sansicup-perrito: SVG nativo, 5 colores, 16 trazados, PNG (927, 945), 600 ppp, PDF vectorial.
+04-sansicup-gatita: SVG nativo, 6 colores, 18 trazados, PNG (927, 945), 600 ppp, PDF vectorial.
+PDF de revisión: 3 páginas A4 horizontal; primera página con cuatro artes de 40 mm.
+Galerías: enlaces locales comprobados. Selección activa: 20; Maestro fotográfico retirado.
+Inspección visual realizada sobre los cuatro PNG y las tres páginas del PDF.
+Pendiente: aprobación estética del usuario y comprobación física de la impresión.

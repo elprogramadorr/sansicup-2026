@@ -1,0 +1,69 @@
+[
+  {
+    "id": "01-perrito-malvado",
+    "title": "Perrito Malvado",
+    "file": "stickers/01-perrito-malvado.png",
+    "references": [
+      "referencias/mascotas/perrito-chaqueta-original.jpg"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "02-loro-mucho-maestro",
+    "title": "Mucho Maestro · Galano",
+    "file": "stickers/02-loro-mucho-maestro.png",
+    "references": [
+      "referencias/mascotas/loro-original-1.jpg",
+      "referencias/mascotas/loro-original-2.jpg"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "03-loro-que-waso",
+    "title": "Qué Waso · Galano",
+    "file": "stickers/03-loro-que-waso.png",
+    "references": [
+      "referencias/mascotas/loro-original-2.jpg"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "04-gatitas-bondadosas",
+    "title": "Gatitas Bondadosas",
+    "file": "stickers/04-gatitas-bondadosas-sin-corazon.png",
+    "references": [
+      "referencias/mascotas/gatita-tricolor-original.jpg"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "05-loro-icpc-umss",
+    "title": "ICPC UMSS · Galano compacto",
+    "file": "stickers/05-loro-icpc-umss.png",
+    "references": [
+      "referencias/mascotas/loro-original-1.jpg"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "06-wasearse-repeat",
+    "title": "Eat, sleep, wasearse, repeat",
+    "file": "stickers/06-wasearse-repeat.png",
+    "references": [
+      "referencias/mascotas/loro-original-2.jpg"
+    ],
+    "status": "Propuesta para revisión",
+    "background": "gris, no transparente",
+    "print_ready": false
+  }
+]

@@ -1,0 +1,28 @@
+SANSI CUP 2026 — AFICHE DE LA CLASIFICATORIA
+
+PARA PUBLICAR (export/)
+- sansicup-2026-clasificatoria-feed.png / .jpg      4:5 (1080x1350; PNG a 2x)  Instagram, Facebook, Telegram, WhatsApp
+- sansicup-2026-clasificatoria-historia.png / .jpg  9:16 (1080x1920; PNG a 2x) Historias y estados
+El QR lleva a https://forms.gle/CpSgMEdd7zDfU3T99 (comprobado leyéndolo en los 4 archivos,
+y también en copias reducidas a 540 px y comprimidas como lo hace WhatsApp).
+
+CONCEPTO
+- Noche azul marino de la marca, crema y dorado: navideño y sobrio, sin saturar.
+- Los globos de ICPC hacen de esferas de Navidad, con las letras de los problemas (A–E).
+- El Cristo de la Concordia iluminado sobre la colina: un guiño a Cochabamba.
+- Abajo, la tarjeta crema con lo práctico (costo, cierre, QR) y una etiqueta de regalo
+  con el bonus de stickers, que muestra tres stickers reales del pack de exclusivos.
+- Logo, stickers y colores salen de coleccion-claude/ para que todo sea una sola familia.
+- Redes en el pie: Telegram, web e Instagram @icpc_umss.
+- Franja de créditos: organiza ICPC UMSS, con el apoyo de SCESI, powered by Juki Judge
+  (logos oficiales; origen en assets/FUENTES-LOGOS.txt).
+- La historia cierra con «¿Ya empezaste a entrenar para la SanSi Cup? 👀».
+- Tipografías: Fraunces (títulos y números), Barlow Condensed (texto), JetBrains Mono (URL).
+  Todas con licencia SIL OFL (fuentes/OFL-*.txt).
+
+EDITAR
+- Todo el texto está en afiche.html. Para regenerar las imágenes:
+    ./render.sh            # feed
+    ./render.sh historia   # historia
+  (necesita Google Chrome instalado). Después, para los JPG, reducir el PNG a 1080 px de ancho.
+- El QR está en assets/qr-inscripcion.svg; si cambia el enlace, hay que generarlo de nuevo.

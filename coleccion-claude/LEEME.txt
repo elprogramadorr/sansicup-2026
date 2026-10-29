@@ -1,0 +1,64 @@
+SANSI CUP 2026 — COLECCIÓN DE STICKERS (42 + 2 planillas A5)
+
+Abrir index.html para ver la colección, las fotos de referencia y las descargas.
+
+QUÉ HAY
+- svg/          Maestros SVG (40 mm): capas "Borde blanco", "Arte" y "CutContour".
+- imprenta/     Por sticker: SVG + PDF por tamaño (arte con borde blanco), PDF _corte
+                con la línea de corte sola y PNG transparente a 600 ppp.
+                imprenta/planilla-a5/: planilla A5 con 13 stickers (arte + corte).
+                imprenta/planilla-exclusivos/: planilla A5 con 13 exclusivos.
+- png/          Vista previa de cada sticker (40 mm, 600 ppp).
+- revision/     Vistas grandes, lámina de contacto, prueba a tamaño real,
+                comparación con las fotos y vista de la planilla con sus cortes.
+- fuentes/      Bagel Fat One, Graduate, Barlow Condensed, JetBrains Mono, Shrikhand
+                y otras de prueba. Todas con licencia SIL OFL (ver OFL*.txt).
+- tools/        Scripts que generan todo (ver abajo).
+
+MÉTODO
+- Personajes dibujados con curvas Bézier en código, mirando las fotos de
+  referencias/ (perrito, gatita, Galano, Nico). Sin imágenes generadas por IA
+  ni autotrazado de fotos.
+- Única excepción trazada: el escudo UMSS, vectorizado del PNG oficial
+  (referencias/marcas-oficiales) para no redibujar una marca institucional.
+- Exclusivos (23–39): sin «ICPC UMSS» en grande. Juki, el oso de anteojos de
+  Juki Judge, está redibujado desde su ilustración oficial
+  (referencias/juki/juki-judge-court.jpg). Las barras de colores remiten al
+  logo de Codeforces. El conejo del reggaetón es un personaje propio: no usa
+  la cara ni el nombre de ningún artista.
+- Equipos (40–42): Api con Pastel, Toy cansado gfe y Sal de mi cabeza:
+  última advertencia, redibujados a mano desde las referencias de cada equipo
+  (referencias/equipos/), sin IA.
+- Sistema común: línea azul marino, halo blanco entre piezas, sombras planas,
+  trama de puntos solo en sombras, letras reales convertidas a curvas.
+- Borde y corte: silueta del arte dilatada 2 mm y suavizada, trazada con potrace
+  como un único contorno cerrado.
+
+ARCHIVOS DE tools/
+- stickers.js   La colección: composición, tamaños y textos de la galería.
+- kit.js, type.js, props.js   Línea, texturas, letras con relieve, copa, globos…
+- dog.js, cat.js, parrot.js, nico.js   Los personajes y sus expresiones.
+- juki.js, bunny.js   Juki (juez y coach) y el conejo malo.
+- exclusivos.js       Los 17 exclusivos.   equipos.js   Stickers de equipos.
+                        props2.js   Sus objetos (pesas,
+                      berenjena, hielo, banderín, ticket, cartucho, sello…).
+- lettering.js  Firma SanSi Cup.   identity.js   Escudo, poleras, dos tintas.
+- build.js → sheet.js → export.py → realsize.js / likeness.js → gallery.js
+  (node build.js 23-39 construye solo un rango)
+
+REGENERAR (desde tools/)
+  node build.js          # SVG, PNG, vistas grandes, contacto, manifest.json
+  node sheet.js          # planilla A5
+  DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib .venv/bin/python export.py
+  node realsize.js && node likeness.js && node gallery.js
+
+PENDIENTE
+- Prueba física de impresión. Los colores están en RGB; en CMYK el turquesa y
+  el verde pueden apagarse un poco.
+- La línea de corte es magenta RGB, no una tinta directa: si la imprenta pide
+  CutContour como tinta directa, se asigna en su RIP o en Illustrator.
+- El escudo UMSS y las poleras de la World Finals son marcas de sus dueños:
+  bien para el grupo; para vender, confirmar con la universidad e ICPC.
+- Igual con Juki (Juki Judge) y Codeforces: bien para regalar en el torneo;
+  para vender, pedir permiso.
+- Los trabajos anteriores (Codex, pilotos) quedan intactos en sus carpetas.

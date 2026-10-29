@@ -1,0 +1,40 @@
+SANSI CUP 2026 — CUATRO PILOTOS PARA APROBACIÓN
+
+En la carpeta del proyecto, abrir index.html para comparar los cuatro diseños con sus referencias.
+Imprimir la primera página de prueba-pilotos-4cm.pdf al 100 %, sin ajustar al papel.
+La regla debe medir 50 mm. Las páginas 2–3 amplían el arte a 8 cm para revisión.
+Los cuatro SVG se definen a 40 mm de lado mayor, incluido el borde blanco de 2 mm.
+Los PNG transparentes están exportados a 600 ppp para este tamaño de prueba.
+
+MÉTODO Y ARCHIVOS
+- Firma: separación de colores del lettering elegido; trazado inicial con Potrace.
+  Comparación de la simplificación de Inkscape con el original: se conserva el
+  carácter de los remates azules y rojos; se adopta la curva limpia del fondo amarillo.
+- Mascotas: siluetas, manchas y facciones construidas con la herramienta Bézier
+  de Inkscape, junto a referencias bloqueadas. Ajuste de nodos de Galano y
+  segunda silueta de pelaje del perrito. No se autovectorizaron las fotografías.
+- Ensamblado: fontTools transforma las curvas existentes; el script aplica la
+  paleta, reutiliza formas de ojos, coloca la firma y normaliza la escala.
+- Bordes: unión de formas y conversión de trazos a curvas en Inkscape.
+- Exportación: Sharp para PNG; Inkscape para arte PDF vectorial; ReportLab y
+  pypdf para la lámina con fotos. No se utilizó generación de imágenes en esta ronda.
+- svg/ contiene exclusivamente cuatro maestros sin imágenes incrustadas,
+  fuentes externas, filtros ni degradados. Todos sus objetos son trazados.
+- Las fotos están en referencias/ y en el PDF. Los SVG de trabajo con referencias
+  bloqueadas permanecen en trabajo/ del proyecto, separados de los maestros.
+
+ALCANCE
+Son pilotos de estilo y parecido. Las otras dieciséis piezas no se han redibujado.
+Esperar aprobación explícita antes de extender el sistema.
+No es todavía un paquete final para imprenta: faltan aprobación estética,
+requisitos del proveedor y prueba física. El borde blanco no constituye por sí
+solo una tinta técnica CutContour ni un perfil de impresión.
+
+REPRODUCIR EN EL PROYECTO
+1. python3 pilotos-vectoriales/tools/assemble.py
+2. python3 pilotos-vectoriales/tools/contours.py
+3. node pilotos-vectoriales/tools/render.cjs
+4. Python del runtime: pilotos-vectoriales/tools/review.py
+5. python3 pilotos-vectoriales/tools/gallery.py
+6. Python del runtime: pilotos-vectoriales/tools/validate.py
+Los originales anteriores se conservaron en archivo-revisiones/.

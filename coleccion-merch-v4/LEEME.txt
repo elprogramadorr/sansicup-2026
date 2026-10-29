@@ -1,0 +1,19 @@
+COLECCIÓN MERCH V4 — 25 OCTUBRE 2026
+
+Ocho propuestas individuales generadas con la herramienta integrada imagegen y revisadas visualmente. Frases del usuario: Mucho Maestro, Maestro?, F Maestro, Qué Waso. Dos diseños generales: Accepted! y One More Submit. Dos de comunidad: ICPC UMSS y UMSS.
+
+Dirección: ilustración cálida con contornos oscuros, personajes expresivos, textos grandes y siluetas compactas. Los dos perritos toman como referencia la versión ilustrada elegida por el usuario. Los resultados incluyen matices de sombra; no son archivos de tintas planas separadas.
+
+Referencias consultadas para colección/merch, sin copiar mascotas:
+https://thegithubshop.com/products/ghsp-0002-sticker-pack
+https://thegithubshop.com/products/security-stickers-pack-of-7
+https://shop.gitlab.com/shop/42058-87277-die-cut-sticker
+https://your.merch.google/lifestyle/stationery/stickers.html
+
+Selección recomendada para regalo: Accepted!, One More Submit, ICPC UMSS y UMSS. Las frases personales complementan el set para amigos.
+
+Revisión: texto correcto en los ocho, borde visible y sin recortes del lienzo. ICPC UMSS fue revisado para corregir la perspectiva de la laptop; versión anterior excluida del ZIP. Montañas de UMSS son una interpretación genérica, no reproducción topográfica ni escudo oficial. Diseño de comunidad, no mercancía institucional oficial.
+
+Archivos PNG RGB con fondo gris de presentación. NO tienen transparencia, troquel, sangrado ni perfil de imprenta. No son SVG aunque el lenguaje visual sea ilustrativo. Medidas propuestas en la galería; falta prueba física de lectura a 4 cm. Elegir 6–8 cm para escenas con tres personajes o varios objetos.
+
+Prompts reproducibles en prompts/. index.html permite ver la colección sin conexión. Originales de colecciones previas conservados.

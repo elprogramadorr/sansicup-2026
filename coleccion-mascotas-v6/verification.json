@@ -1,0 +1,155 @@
+{
+  "images": [
+    {
+      "file": "coleccion-icpc-animales/stickers/01-galano.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/02-perrito.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/03-gatita.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/04-capibara.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/05-patito.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/06-llama.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/01-umss-codigo.png",
+      "size": [
+        1103,
+        1426
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/02-icpc-umss-cubo.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/03-cocha-codigo.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/01-perrito-malvado.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/02-loro-mucho-maestro.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/03-loro-que-waso.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/04-gatitas-bondadosas.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/05-loro-icpc-umss.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/06-wasearse-repeat.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-tom/stickers/01-bandida.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-tom/stickers/02-bandido.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-tom/stickers/03-mucho-maestro.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "gallery_images": 46,
+  "checks": [
+    "PNG decoded successfully",
+    "gallery image paths exist",
+    "ZIP integrity checked"
+  ],
+  "visual_review": "Spelling reviewed, full silhouettes visible. Cat lettering confirmed: Gatitas Bondadosas. Detailed animals best at 6–8 cm; physical print test pending."
+}

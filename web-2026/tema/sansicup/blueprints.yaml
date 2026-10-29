@@ -1,0 +1,26 @@
+name: SanSi Cup
+slug: sansicup
+type: theme
+version: 1.0.0
+description: "Tema de la SanSi Cup 2026, con la identidad del afiche (azul noche, crema y dorado)."
+icon: trophy
+author:
+  name: ICPC UMSS
+homepage: https://sansicup.umss.edu.bo
+license: MIT
+dependencies:
+  - { name: grav, version: '>=1.7.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Tema activado
+      highlight: 1
+      default: 1
+      options:
+        1: Sí
+        0: No
+      validate:
+        type: bool

@@ -1,0 +1,262 @@
+{
+  "selected": 31,
+  "retired": 20,
+  "duplicates_hidden": 1,
+  "images": [
+    {
+      "file": "coleccion-icpc-animales/stickers/01-galano.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/02-perrito.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-icpc-animales/stickers/03-gatita.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/01-umss-codigo.png",
+      "size": [
+        1103,
+        1426
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-local-v5/stickers/02-icpc-umss-cubo.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/01-perrito-malvado.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/02-loro-mucho-maestro.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/03-loro-que-waso.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/04-gatitas-bondadosas-sin-corazon.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-mascotas-v6/stickers/06-wasearse-repeat.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-tom/stickers/01-bandida.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-tom/stickers/02-bandido.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/01-mucho-maestro.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/02-maestro-pregunta.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/03-f-maestro.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-merch-v4/stickers/04-que-waso.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-nico/01-maestro-fotografico.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-nico/02-que-waso-ilustrado.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "poleras-realistas/01-dhaka-realista.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "poleras-realistas/02-luxor-realista.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "poleras-realistas/03-baku-realista.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-amigos/alternativas/perritos-ilustrado.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-amigos/stickers/07-polera-dhaka.png",
+      "size": [
+        1200,
+        1097
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "coleccion-amigos/stickers/08-polera-luxor.png",
+      "size": [
+        1200,
+        1097
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "coleccion-amigos/stickers/09-polera-baku.png",
+      "size": [
+        1200,
+        1097
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "coleccion-sansicup-v7/stickers/01-sansicup-lettering.png",
+      "size": [
+        1427,
+        1102
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-sansicup-v7/stickers/02-sansicup-tipo-copa.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-sansicup-v7/stickers/03-sansicup-galano.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-sansicup-v8/stickers/01-sansicup-26.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-sansicup-v8/stickers/02-sansicup-emblema.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "coleccion-sansicup-v8/stickers/03-sansicup-navidad.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "checks": [
+    "PNG decoded",
+    "Gallery matches selected files",
+    "Rejected images absent from gallery and current ZIPs",
+    "ZIP integrity passed"
+  ],
+  "visual_review": "SanSi Cup spelling checked on three new sports/Christmas designs; emblem compacted. Cat heart removed; Mucho Maestro Tom retired. Physical print review pending."
+}

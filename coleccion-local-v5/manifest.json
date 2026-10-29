@@ -1,0 +1,35 @@
+[
+  {
+    "id": "01-umss-codigo",
+    "title": "UMSS · escudo y código",
+    "file": "stickers/01-umss-codigo.png",
+    "references": [
+      "referencias/marcas-oficiales/umss-escudo-oficial.png"
+    ],
+    "status": "Interpretación para merch · 6–8 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "02-icpc-umss-cubo",
+    "title": "ICPC UMSS · cubo",
+    "file": "stickers/02-icpc-umss-cubo.png",
+    "references": [
+      "referencias/marcas-oficiales/icpc-umss-taller-2026.jpeg"
+    ],
+    "status": "Interpretación para merch · 6–8 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "03-cocha-codigo",
+    "title": "Cocha · código y Concordia",
+    "file": "stickers/03-cocha-codigo.png",
+    "references": [
+      "referencias/cochabamba/cristo-concordia-referencia.jpg"
+    ],
+    "status": "Interpretación para merch · 6–8 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  }
+]

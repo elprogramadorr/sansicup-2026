@@ -1,0 +1,11 @@
+UMSS, ICPC UMSS y Cocha — tres propuestas para revisión.
+Interpretaciones generativas para merch, no archivos oficiales de identidad.
+Escudo de referencia: https://www.umss.edu.bo/wp-content/uploads/2019/04/escudo-01.png
+Manual: https://www.umss.edu.bo/wp-content/uploads/2024/01/manualMarcaUMSS.pdf
+Cubo de referencia presente en el cartel del sitio oficial: https://icpc.umss.edu.bo/user/pages/01.home/taller-icpc-2026.jpeg
+Se simplificó el cubo y se retiró la órbita para mejorar su silueta.
+Referencia arquitectónica de Cocha: Cristo de la Concordia, Cochabamba (11935).jpg, Parallelepiped09, CC BY-SA 4.0.
+https://commons.wikimedia.org/wiki/File:Cristo_de_la_Concordia,_Cochabamba_(11935).jpg
+https://creativecommons.org/licenses/by-sa/4.0/
+La pieza Cocha transforma esa referencia en ilustración frontal con llaves de código, paisaje y lettering. Se distribuye bajo CC BY-SA 4.0.
+PNG con fondo gris de presentación, sin transparencia ni trazados de corte. Recomendado revisar a 6–8 cm. No listos para imprenta.

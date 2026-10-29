@@ -1,0 +1,63 @@
+[
+  {
+    "id": "01-sansicup-lettering",
+    "animal": "lettering",
+    "width_mm": 40.0,
+    "height_mm": 22.638324369787576,
+    "colors": [
+      "#14286E",
+      "#D7192D",
+      "#FFC72C",
+      "#FFFFFF"
+    ],
+    "objects": 3,
+    "border_mm": 2
+  },
+  {
+    "id": "02-sansicup-galano",
+    "animal": "galano",
+    "width_mm": 39.234314910900906,
+    "height_mm": 40.0,
+    "colors": [
+      "#14286E",
+      "#2B91B3",
+      "#39764D",
+      "#D7192D",
+      "#FFC72C",
+      "#FFFFFF"
+    ],
+    "objects": 12,
+    "border_mm": 2
+  },
+  {
+    "id": "03-sansicup-perrito",
+    "animal": "perrito",
+    "width_mm": 39.234314910900906,
+    "height_mm": 40.0,
+    "colors": [
+      "#14286E",
+      "#D7192D",
+      "#F2E3C8",
+      "#FFC72C",
+      "#FFFFFF"
+    ],
+    "objects": 14,
+    "border_mm": 2
+  },
+  {
+    "id": "04-sansicup-gatita",
+    "animal": "gatita",
+    "width_mm": 39.234314910900906,
+    "height_mm": 40.0,
+    "colors": [
+      "#14286E",
+      "#39764D",
+      "#CF733A",
+      "#D7192D",
+      "#FFC72C",
+      "#FFFFFF"
+    ],
+    "objects": 16,
+    "border_mm": 2
+  }
+]

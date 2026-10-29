@@ -1,0 +1,1 @@
+{"name":"sansicup-pilotos-claude","private":true,"type":"commonjs","dependencies":{"@resvg/resvg-js":"^2.6.2","opentype.js":"^1.3.4","pdf-lib":"^1.17.1","potrace":"^2.1.8","sharp":"^0.33.5"}}

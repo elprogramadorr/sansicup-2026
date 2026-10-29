@@ -1,0 +1,4 @@
+juki-judge-blanco.svg / juki-judge-color.svg  https://images.juki.pub/c/juki-judge-horizontal-{white,color}-logo.svg  (logo oficial de Juki Judge, enlazado desde judge.juki.app)
+scesi.svg                                     logo SVG del encabezado de https://www.scesi.org (sin cambios)
+umss-escudo.png                               referencias/marcas-oficiales/umss-escudo-oficial.png, recortado
+centro-memi.png                               logo enviado por el usuario (recortado)

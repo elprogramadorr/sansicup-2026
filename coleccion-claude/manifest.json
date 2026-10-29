@@ -1,0 +1,459 @@
+[
+  {
+    "id": "01-sansicup-firma",
+    "title": "SanSi Cup 2026 · firma",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "sansi",
+    "note": "La firma del evento con relieve 3D de script deportivo."
+  },
+  {
+    "id": "02-sansicup-galano",
+    "title": "SanSi Cup 2026 · Galano",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "sansi",
+    "note": "Galano posado sobre la firma levanta la copa."
+  },
+  {
+    "id": "03-sansicup-perrito",
+    "title": "SanSi Cup 2026 · Perrito",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "sansi",
+    "note": "El perrito abraza la copa con su chaqueta varsity."
+  },
+  {
+    "id": "04-sansicup-gatita",
+    "title": "SanSi Cup 2026 · Gatita",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "sansi",
+    "note": "La gatita reclama la copa: «es mía»."
+  },
+  {
+    "id": "05-icpc-galano",
+    "title": "ICPC UMSS · Galano (AC)",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "icpc",
+    "note": "Dos globos = dos problemas resueltos. Galano feliz."
+  },
+  {
+    "id": "06-icpc-perrito",
+    "title": "ICPC UMSS · Perrito",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "icpc",
+    "note": "Asomado sobre las letras varsity, con su globo B."
+  },
+  {
+    "id": "07-icpc-gatita",
+    "title": "ICPC UMSS · Gatita",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "icpc",
+    "note": "Seria, con el globo C y las patas sobre ICPC."
+  },
+  {
+    "id": "08-perritos-malvados",
+    "title": "Perritos Malvados",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "El nombre del equipo, con cuernitos y mirada de plan."
+  },
+  {
+    "id": "09-gatitas-bondadosas",
+    "title": "Gatitas Bondadosas",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "Aureola y ojos cerrados: pura bondad (supuestamente)."
+  },
+  {
+    "id": "10-mucho-maestro",
+    "title": "Mucho Maestro",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "Galano tras la laptop con el check de AC."
+  },
+  {
+    "id": "11-bandida",
+    "title": "Bandida",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "La sonrisa del meme de Tom, en la gatita (sin usar a Tom)."
+  },
+  {
+    "id": "12-bandido",
+    "title": "Bandido",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "Galano con antifaz de ladrón."
+  },
+  {
+    "id": "13-f-maestro",
+    "title": "F Maestro",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "Press F: el perrito llora sobre la tecla."
+  },
+  {
+    "id": "14-que-waso",
+    "title": "Qué Waso · Nico",
+    "sizes": [
+      5,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "Nico con su poncho de la World Finals y pulgar arriba."
+  },
+  {
+    "id": "15-wasearse-repeat",
+    "title": "Eat, sleep, wasearse, repeat",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "chistes",
+    "note": "El ciclo de la vida del competidor."
+  },
+  {
+    "id": "16-icpc-cubo",
+    "title": "ICPC UMSS · cubo",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "El cubo del logo ICPC UMSS, con globos y código."
+  },
+  {
+    "id": "17-umss-escudo",
+    "title": "UMSS · escudo y código",
+    "sizes": [
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "Escudo oficial trazado del PNG oficial, entre llaves."
+  },
+  {
+    "id": "18-club-sansicup",
+    "title": "SanSi Cup · club",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "Insignia retro a dos tintas con trama de puntos."
+  },
+  {
+    "id": "19-polera-dhaka",
+    "title": "Polera ICPC · Dhaka",
+    "sizes": [
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "La polera real de Dhaka en miniatura."
+  },
+  {
+    "id": "20-polera-luxor",
+    "title": "Polera ICPC · Luxor",
+    "sizes": [
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "La polera real de Luxor en miniatura."
+  },
+  {
+    "id": "21-polera-baku",
+    "title": "Polera ICPC · Baku",
+    "sizes": [
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "La polera real de Baku en miniatura."
+  },
+  {
+    "id": "22-polera-rapid-city",
+    "title": "Polera ICPC · Rapid City 2017",
+    "sizes": [
+      6,
+      8
+    ],
+    "group": "identidad",
+    "note": "La polera de la World Finals de Rapid City, Dakota del Sur, 2017."
+  },
+  {
+    "id": "23-sansicup-banderin",
+    "title": "SanSi Cup · banderín",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-sansi",
+    "note": "Banderín de fieltro varsity, con costura y copa."
+  },
+  {
+    "id": "24-sansicup-ticket",
+    "title": "SanSi Cup · entrada",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-sansi",
+    "note": "La entrada al torneo, con la firma y talón troquelado."
+  },
+  {
+    "id": "25-sansicup-cartucho",
+    "title": "SanSi Cup · cartucho",
+    "sizes": [
+      5,
+      6,
+      8
+    ],
+    "group": "ex-sansi",
+    "note": "Cartucho retro: equipos de 1 a 3 jugadores, como el ICPC."
+  },
+  {
+    "id": "26-icpc-globos",
+    "title": "ICPC · globos",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-icpc",
+    "note": "ICPC deletreado con los globos de colores: todo aceptado."
+  },
+  {
+    "id": "27-icpc-1pc-3cerebros",
+    "title": "ICPC · 1 PC, 3 cerebros",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-icpc",
+    "note": "La regla del ICPC: un computador, tres cerebros."
+  },
+  {
+    "id": "28-icpc-congelado",
+    "title": "ICPC · scoreboard congelado",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-icpc",
+    "note": "La última hora del ICPC: el scoreboard se congela."
+  },
+  {
+    "id": "29-gymrat",
+    "title": "Gymrat · Codeforces",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-cf",
+    "note": "Para quien vive en el Gym de Codeforces. Las pesas son el logo."
+  },
+  {
+    "id": "30-dont-vibe-code",
+    "title": "I don’t vibe code, I do Codeforces",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-cf",
+    "note": "La gatita no confía en el vibe coding. Con el logo de Codeforces."
+  },
+  {
+    "id": "31-juki-judge",
+    "title": "Juki Judge · Accepted",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-cf",
+    "note": "El juez de Juki dicta veredicto: Accepted. Copa en una mano, martillo en la otra."
+  },
+  {
+    "id": "32-juki-coach",
+    "title": "Coach Juki",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-cf",
+    "note": "Juki entrena al equipo: el perrito, Galano y la gatita."
+  },
+  {
+    "id": "33-long-long",
+    "title": "No por nada uso long long",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-prog",
+    "note": "Con berenjena y la gatita con cara de saber exactamente lo que dice."
+  },
+  {
+    "id": "34-segfault",
+    "title": "Segmentation fault",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-prog",
+    "note": "La gatita bota la laptop de la mesa: core dumped."
+  },
+  {
+    "id": "35-ac-en-mi-maquina",
+    "title": "AC en mi máquina",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-prog",
+    "note": "Pasa todos los casos locales… y el juez dice Wrong Answer."
+  },
+  {
+    "id": "36-stochastic-parrot",
+    "title": "Stochastic parrot",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-prog",
+    "note": "El vibe coding en una imagen: un loro que completa código."
+  },
+  {
+    "id": "37-vibe-coded",
+    "title": "Vibe coded · WA on test 1",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "ex-prog",
+    "note": "Con lentes y mucha confianza… WA on test 1."
+  },
+  {
+    "id": "38-ciclo-euleriano",
+    "title": "Baby, la vida es un ciclo (euleriano)",
+    "sizes": [
+      5,
+      6,
+      8
+    ],
+    "group": "ex-reggaeton",
+    "note": "Reggaetón de grafos: un ciclo que pasa por cada arista una vez."
+  },
+  {
+    "id": "39-no-lo-memoizo",
+    "title": "Lo que no es DP no lo memoizo",
+    "sizes": [
+      5,
+      6,
+      8
+    ],
+    "group": "ex-reggaeton",
+    "note": "La segunda estrofa: con su tabla de Fibonacci memoizada."
+  },
+  {
+    "id": "40-api-con-pastel",
+    "title": "Equipo · Api con Pastel",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "equipos",
+    "note": "La merienda cochabambina como equipo: api mixto bien caliente y un pastel con azúcar impalpable."
+  },
+  {
+    "id": "41-toy-cansado-gfe",
+    "title": "Equipo · Toy cansado gfe",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "equipos",
+    "note": "El equipo más cansado del torneo, desparramado en su silla."
+  },
+  {
+    "id": "42-sal-de-mi-cabeza",
+    "title": "Equipo · Sal de mi cabeza: última advertencia",
+    "sizes": [
+      4,
+      6,
+      8
+    ],
+    "group": "equipos",
+    "note": "Un Jack Russell que te mira de reojo con la pata en alto: última advertencia."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-sansicup-2026.svg",
+    "bounds": [
+      108,
+      234,
+      784,
+      532
+    ],
+    "largestCM": 8
+  },
+  {
+    "file": "02-copa.svg",
+    "bounds": [
+      115,
+      50,
+      771,
+      833
+    ],
+    "largestCM": 8
+  },
+  {
+    "file": "03-one-more-submit.svg",
+    "bounds": [
+      116,
+      67,
+      758,
+      862
+    ],
+    "largestCM": 8
+  },
+  {
+    "file": "04-tle.svg",
+    "bounds": [
+      152,
+      247,
+      741,
+      611
+    ],
+    "largestCM": 8
+  },
+  {
+    "file": "05-icpc.svg",
+    "bounds": [
+      102,
+      12,
+      796,
+      876
+    ],
+    "largestCM": 8
+  },
+  {
+    "file": "06-umss.svg",
+    "bounds": [
+      108,
+      287,
+      784,
+      414
+    ],
+    "largestCM": 8
+  }
+]

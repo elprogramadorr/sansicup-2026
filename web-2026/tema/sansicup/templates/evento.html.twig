@@ -1,0 +1,116 @@
+{% extends 'partials/base.html.twig' %}
+{% set e = page.header.evento %}
+
+{% block clase_body %}evento{% endblock %}
+
+{% block pagina %}
+<header class="cielo">
+  {% include 'partials/adornos.html.twig' %}
+  <div class="envoltura portada">
+    <p class="ceja rotulo"><span>{{ e.organiza }} · {{ e.edicion }}</span></p>
+    <h1 class="logo"><img src="{{ url('theme://images/sansicup-2026.svg') }}" alt="SanSi Cup 2026" width="1090" height="590"></h1>
+    <p class="lema">{{ e.lema }}</p>
+
+    <div class="etapas">
+      {% for etapa in e.etapas %}
+        {% if not loop.first %}
+          <div class="paso" aria-hidden="true"><span class="rotulo">Clasifican</span><b>{{ e.clasifican }}</b></div>
+        {% endif %}
+        <div class="etapa">
+          <span class="rotulo">{{ etapa.nombre }}</span>
+          <span class="dia">{{ etapa.dia }}</span>
+          <span class="rotulo mes">{{ etapa.mes }}</span>
+          <span class="detalle">{{ etapa.detalle }}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="acciones">
+      <a class="boton" href="{{ e.inscripcion.url }}">Inscríbete · {{ e.inscripcion.costo }}</a>
+      <a class="secundario" href="{{ e.enlaces.telegram }}">Anuncios en Telegram</a>
+    </div>
+    <p class="cierre">Inscripciones abiertas hasta el {{ e.inscripcion.cierre }}</p>
+  </div>
+  {% include 'partials/colina.html.twig' %}
+</header>
+
+<main class="papel">
+  <section class="envoltura bloque que-es">
+    <div class="prosa">
+      {{ page.content|raw }}
+    </div>
+    <aside class="cuenta" data-meta="{{ e.cuenta.meta }}">
+      <h3 class="rotulo">{{ e.cuenta.titulo }}</h3>
+      <div class="reloj" role="timer" aria-live="off">
+        <div><span data-u="d">–</span><small>días</small></div>
+        <div><span data-u="h">–</span><small>horas</small></div>
+        <div><span data-u="m">–</span><small>min</small></div>
+        <div><span data-u="s">–</span><small>seg</small></div>
+      </div>
+      <p class="hoy" hidden>{{ e.cuenta.hoy }}</p>
+      <p class="lugar">{{ e.cuenta.lugar }}</p>
+    </aside>
+    <script>
+    (() => {
+      const caja = document.querySelector('.cuenta');
+      const meta = Date.parse(caja.dataset.meta);
+      const celdas = Object.fromEntries([...caja.querySelectorAll('[data-u]')].map(el => [el.dataset.u, el]));
+      const dos = n => String(n).padStart(2, '0');
+      function tic() {
+        const s = Math.floor((meta - Date.now()) / 1000);
+        if (!(s > 0)) { caja.querySelector('.reloj').hidden = true; caja.querySelector('.hoy').hidden = false; return; }
+        celdas.d.textContent = Math.floor(s / 86400);
+        celdas.h.textContent = dos(Math.floor(s / 3600) % 24);
+        celdas.m.textContent = dos(Math.floor(s / 60) % 60);
+        celdas.s.textContent = dos(s % 60);
+        setTimeout(tic, 1000 - Date.now() % 1000);
+      }
+      tic();
+    })();
+    </script>
+  </section>
+
+  <section class="envoltura bloque">
+    <h2>Cronograma</h2>
+    <ol class="cronograma">
+      {% for item in e.cronograma %}
+        <li>
+          <div class="cuando"><span class="fecha">{{ item.fecha }}</span><span class="rotulo">{{ item.hora }}</span></div>
+          <div class="que"><h3>{{ item.titulo }}</h3><p>{{ item.texto }}</p></div>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="envoltura bloque inscripcion" id="inscripcion">
+    <div class="ficha">
+      <div class="datos">
+        <h2>Inscripción</h2>
+        <p class="precio">{{ e.inscripcion.costo }} <small>por participante</small></p>
+        <p class="plazo">Hasta el <strong>{{ e.inscripcion.cierre }}</strong></p>
+        <p class="nota">{{ e.inscripcion.nota }}</p>
+        <a class="boton" href="{{ e.inscripcion.url }}">Llenar el formulario</a>
+      </div>
+      <figure class="qr">
+        <img src="{{ url('theme://images/qr-inscripcion.svg') }}" alt="Código QR del formulario de inscripción" width="198" height="198">
+        <figcaption><span class="rotulo">Escanea e inscríbete</span><code>{{ e.inscripcion.corto }}</code></figcaption>
+      </figure>
+    </div>
+
+    {% if e.regalo %}
+    <div class="regalo">
+      <div class="texto">
+        <span class="rotulo">{{ e.regalo.rotulo }}</span>
+        <h3>{{ e.regalo.titulo }}</h3>
+        <p>{{ e.regalo.texto }}</p>
+      </div>
+      <div class="stickers" aria-hidden="true">
+        <img src="{{ url('theme://images/sticker-31-juki-judge.webp') }}" alt="" width="316" height="360">
+        <img src="{{ url('theme://images/sticker-26-icpc-globos.webp') }}" alt="" width="360" height="360">
+        <img src="{{ url('theme://images/sticker-34-segfault.webp') }}" alt="" width="360" height="344">
+      </div>
+    </div>
+    {% endif %}
+  </section>
+</main>
+{% endblock %}

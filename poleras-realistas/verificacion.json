@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-dhaka-realista.png",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "file": "02-luxor-realista.png",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "file": "03-baku-realista.png",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  }
+]

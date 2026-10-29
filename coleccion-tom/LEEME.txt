@@ -1,0 +1,4 @@
+Tres propuestas: Bandida, Bandido y Mucho Maestro.
+Redibujos generativos basados en la captura del usuario. No se encontró una fuente HD verificada del fotograma exacto.
+PNG con fondo gris de presentación. No transparentes y sin trazados de corte.
+Prompts conservados por separado. Referencia original en referencias/tom.

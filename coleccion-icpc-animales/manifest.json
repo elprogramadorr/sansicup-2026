@@ -1,0 +1,70 @@
+[
+  {
+    "id": "01-galano",
+    "title": "ICPC UMSS · Galano",
+    "file": "stickers/01-galano.png",
+    "references": [
+      "referencias/mascotas/loro-original-1.jpg"
+    ],
+    "status": "Serie de animales · 4–6 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "02-perrito",
+    "title": "ICPC UMSS · Perrito",
+    "file": "stickers/02-perrito.png",
+    "references": [
+      "coleccion-icpc-animales/stickers/01-galano.png",
+      "referencias/mascotas/perrito-chaqueta-original.jpg"
+    ],
+    "status": "Serie de animales · 4–6 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "03-gatita",
+    "title": "ICPC UMSS · Gatita",
+    "file": "stickers/03-gatita.png",
+    "references": [
+      "coleccion-icpc-animales/stickers/01-galano.png",
+      "referencias/mascotas/gatita-tricolor-original.jpg"
+    ],
+    "status": "Serie de animales · 4–6 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "04-capibara",
+    "title": "ICPC UMSS · Capibara",
+    "file": "stickers/04-capibara.png",
+    "references": [
+      "coleccion-icpc-animales/stickers/01-galano.png"
+    ],
+    "status": "Serie de animales · 4–6 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "05-patito",
+    "title": "ICPC UMSS · Patito",
+    "file": "stickers/05-patito.png",
+    "references": [
+      "coleccion-icpc-animales/stickers/01-galano.png"
+    ],
+    "status": "Serie de animales · 4–6 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  },
+  {
+    "id": "06-llama",
+    "title": "ICPC UMSS · Llama",
+    "file": "stickers/06-llama.png",
+    "references": [
+      "coleccion-icpc-animales/stickers/01-galano.png"
+    ],
+    "status": "Serie de animales · 4–6 cm",
+    "background": "gris, no transparente",
+    "print_ready": false
+  }
+]

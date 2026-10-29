@@ -1,0 +1,15 @@
+SANSI CUP 2026 — SITIO WEB (sansicup.umss.edu.bo, Grav)
+
+QUÉ HAY AQUÍ
+- tema/sansicup/        Tema de Grav con la identidad del afiche (colores, tipografías, globos A–E, Cristo).
+- pagina/inicio.md      Contenido de la página de inicio. Todo lo editable está aquí:
+                        fechas, costo, enlace del formulario, cronograma y el texto «¿Qué es?» (Markdown).
+- tema-sansicup.zip     El tema empaquetado, para Admin → Herramientas → Instalación directa.
+- herramientas/         adornos.py (genera los SVG de globos y colina) y vista_previa.py (render local).
+
+CAMBIAR UN DATO (fecha, costo, enlace)
+Admin → Páginas → Inicio → modo Experto, y editar el encabezado YAML. No hace falta tocar el tema.
+
+VISTA PREVIA LOCAL
+  python herramientas/vista_previa.py   ->  vista-previa/index.html
+  (necesita jinja2, markdown y pyyaml)

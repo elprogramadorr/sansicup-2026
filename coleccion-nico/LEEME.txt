@@ -1,0 +1,6 @@
+Dos propuestas de Nico, creadas con la herramienta integrada imagegen usando la foto autorizada.
+01: Maestro? — tratamiento fotográfico con tipografía grande.
+02: Qué Waso — interpretación ilustrada del poncho.
+Revisión visual: frases correctas, sin elementos cortados, contorno unido. El parecido es más fiel en 01; 02 estiliza los rasgos y el tejido.
+Son PNG de presentación con fondo gris, no maestros vectoriales ni PDFs de producción. Conviene 6–8 cm para preservar el rostro. La lectura física a 4 cm sigue pendiente.
+Prompts exactos en prompts/. Originales conservados en referencias/nico/.

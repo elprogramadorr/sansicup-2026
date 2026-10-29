@@ -1,0 +1,7 @@
+SanSi Cup — propuestas deportivas y navideña.
+01: numeral26 con líneas anchas, nombre y copa en negativo.
+02: emblema de tres cintas, compactado tras revisión para dar más presencia al nombre.
+03: esfera navideña que integra copa y árbol mediante espacio negativo.
+Referencias de investigación en referencias/inspiracion-deportiva/FUENTES.txt.
+Se estudiaron México68, Tokio64 y Mundial2026 para jerarquía, geometría y sistema gráfico, sin copiar sus signos oficiales.
+PNG raster con fondo gris. No son SVG vectoriales ni incluyen línea de corte. Prueba física y preparación para imprenta pendientes.

@@ -1,0 +1,8 @@
+SanSi Cup — revisión de dirección gráfica v7.
+01 Firma: reinterpretación del lettering azul/rojo del logo original, año 2026.
+02 La copa es el nombre: Cup forma el cuerpo del trofeo.
+03 Galano: mascota del grupo con copa y nueva firma.
+Referencia histórica en referencias/sansicup-referencia-2023.jpg.
+Propuestas raster generativas con fondo gris. No son maestros vectoriales ni artes listos para imprenta.
+Prompts individuales conservados en prompts/.
+La selección activa se controla con seleccion-galeria.json. Los descartes se conservan como archivos y no aparecen en la galería ni en los nuevos ZIP de selección.

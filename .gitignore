@@ -1,0 +1,12 @@
+.DS_Store
+.claude/
+tmp/
+__pycache__/
+node_modules/
+venv/
+.venv/
+*.zip
+*.dmg
+tools/apps/
+archivo-revisiones/entrega-anterior-29/
+vendor/
